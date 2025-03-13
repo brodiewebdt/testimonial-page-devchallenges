@@ -3,65 +3,78 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Testimonial Page | devChallenges.io" />
+    <meta name="keywords" content="HTML, CSS, devChallenges.io" />
+    <meta name="David Turner" content="Your Name Here" />
 
-    <link
-      rel="icon"
-      href="resources/favicon.ico"
-      type="image/x-icon"
-      sizes="96x96"
-    />
+    <link rel="icon" href="resources/favicon.ico" type="image/x-icon" sizes="96x96" />
 
     <title>Testimonial Page | devChallenges.io</title>
-
-    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      body {
-        height: 100vh;
-      }
-
-      .author-info {
-        font-size: 14px;
-        text-align: center;
-        margin-top: 16px;
-        color: rgb(55, 65, 81);
-      }
-
-      .author-info a {
-        text-decoration: none;
-      }
-    </style>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <!-- 
-  ⭐️
+    <main>
+      <div class="wrapper">
+        <div class="description">
+          <div class="icon-wrapper">
+            <img src="resources/Star_fill_white.svg" alt="" />
+          </div>
+          <!-- /.icon-wrapper -->
 
-  Reviewers is where people can access guidelines, checklists, and other tools to assist them in reviewing papers or manuscripts. It provides a structured approach to ensure that the review process is thorough, efficient, and consistent.
-  
-  Checklist to Review an Academic Paper
-  
-  Peer Review Checklist
-  
-  Checklist for Editors, Reviewers, and Authors of SPIE Journals
-  
-  Samantha Lee
-  
-  The checklist ensures that the review process is thorough
-  
-  Rachel Patel
-  
-  I highly recommend the Writecream Business Description -->
-
-    <div class="author-info">
-      Coded by <a href="#">Your Name Here</a> | Challenge by
-      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
-        >devChallenges.io</a
-      >.
-    </div>
+          <h2 class="page__title">Reviewers</h2>
+          <p class="page__subtitle">Reviewers is where people can access guidelines, checklists, and other tools to assist them in reviewing papers or manuscripts. It provides a structured approach to ensure that the review process is thorough, efficient, and consistent.</p>
+          <div class="features">
+            <ul>
+              <li><img src="resources/Done_ring_round_fill.svg" alt="" /> Checklist to Review an Academic Paper</li>
+              <li><img src="resources/Done_ring_round_fill.svg" alt="" /> Peer Review Checklist</li>
+              <li><img src="resources/Done_ring_round_fill.svg" alt="" /> Checklist for Editors, Reviewers, and Authors of SPIE Journals</li>
+            </ul>
+          </div>
+          <!-- /.features -->
+        </div>
+        <!-- /.description -->
+        <div class="reviews">
+          <article class="card review__card">
+            <div class="review__company">
+              <img src="resources/google-testimonial.svg" alt="" width="87" height="29" />
+              <div class="rating">
+                <span><img src="resources/Star_fill.svg" alt="" /></span>
+                <span><img src="resources/Star_fill.svg" alt="" /></span>
+                <span><img src="resources/Star_fill.svg" alt="" /></span>
+                <span><img src="resources/Star_fill.svg" alt="" /></span>
+                <span><img src="resources/Star_fill_gray.svg" alt="" /></span>
+              </div>
+              <!-- /.rating -->
+            </div>
+            <!-- /.review__company -->
+            <h3 class="author">Samantha Lee</h3>
+            <p class="review">The checklist ensures that the review process is thorough</p>
+          </article>
+          <article class="card review__card">
+            <div class="review__company">
+              <img src="resources/meta-testimonial.svg" alt="" width="87" height="29" />
+              <div class="rating">
+                <span><img src="resources/Star_fill.svg" alt="" /></span>
+                <span><img src="resources/Star_fill.svg" alt="" /></span>
+                <span><img src="resources/Star_fill.svg" alt="" /></span>
+                <span><img src="resources/Star_fill.svg" alt="" /></span>
+                <span><img src="resources/Star_fill.svg" alt="" /></span>
+              </div>
+              <!-- /.rating -->
+            </div>
+            <!-- /.review__company -->
+            <h3 class="author">Rachel Patel</h3>
+            <p class="review">I highly recommend the Writecream Business Description</p>
+          </article>
+        </div>
+        <!-- /.reviews -->
+      </div>
+      <!-- /.wrapper -->
+    </main>
   </body>
 </html>
