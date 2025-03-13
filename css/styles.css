@@ -178,9 +178,15 @@ body {
 }
 
 main {
-  margin-block-start: var(--spacing-162);
+  margin-block-start: var(--spacing-40);
   margin-inline: var(--spacing-12);
   padding-block-end: var(--spacing-40);
+}
+
+@media (min-width: 50rem) {
+  main {
+    margin-block-start: var(--spacing-162);
+  }
 }
 
 /***** Typography Styles ******/
